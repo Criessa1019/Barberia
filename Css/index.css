@@ -3,7 +3,7 @@ body {
 }
 
 .hero-section {
-    min-height: 60vh;
+    min-height: 10vh;
     display: flex;
     align-items: center;
 }
@@ -25,4 +25,13 @@ body {
 
 footer {
     font-size: 14px;
+}
+
+.horarios-section {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.horarios-section h2 {
+    color: #f5c518;
 }
