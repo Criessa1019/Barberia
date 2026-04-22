@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.btn-warning:hover {
+    background-color: #e69500;
+    transform: scale(1.05);
+}
+
+.servicio-card {
+    padding: 30px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.servicio-card:hover {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+footer {
+    font-size: 14px;
+}
