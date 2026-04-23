@@ -6,6 +6,7 @@
     <title>Barbería</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -16,17 +17,16 @@
         </button>
         <div class="collapse navbar-collapse" id="menu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                <a class="nav-link" href="#inicio">Inicio</a>
+                <a class="nav-link" href="#servicios">Servicios</a>
+                <a class="nav-link" href="#precios">Precios</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
             </ul>
-            <section class="bg-dark text-white py-5 hero-section"></section>
         </div>
     </div>
 </nav>
 
-<section class="bg-dark text-white py-5">
+<section class="bg-dark text-white py-5" id="inicio"> 
     <div class="container">
         <h1 class="display-1 fw-bold">BarberKing</h1>
         <p class="lead">El mejor corte de tu vida te espera aquí.</p>
@@ -34,21 +34,36 @@
     </div>
 </section>
 
-<section class="py-5">
+<section class="py-5" id="servicios">
     <div class="container">
         <h2 class="text-center mb-5">Nuestros Servicios</h2>
         <div class="row">
-            <div class="col-md-4 text-center mb-4">
-                <h4>✂️ Corte clásico</h4>
-                <p>El corte tradicional que nunca pasa de moda.</p>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center shadow">
+                    <div class="card-body">
+                        <h4 class="card-title">✂️ Corte clásico</h4>
+                        <p class="card-text">El corte tradicional que nunca pasa de moda.</p>
+                        <a href="#contacto" class="btn btn-warning">Reservar</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 text-center mb-4">
-                <h4>🧔 Arreglo de barba</h4>
-                <p>Perfilado y arreglo profesional de barba.</p>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center shadow">
+                    <div class="card-body">
+                        <h4 class="card-title">🧔 Arreglo de barba</h4>
+                        <p class="card-text">Perfilado y arreglo profesional de barba.</p>
+                        <a href="#contacto" class="btn btn-warning">Reservar</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 text-center mb-4">
-                <h4>💈 Corte + Barba</h4>
-                <p>El combo completo para lucir impecable.</p>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center shadow">
+                    <div class="card-body">
+                        <h4 class="card-title">💈 Corte + Barba</h4>
+                        <p class="card-text">El combo completo para lucir impecable.</p>
+                        <a href="#contacto" class="btn btn-warning">Reservar</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -86,7 +101,7 @@
     </div>
 </section>
 
-<section class="py-5 bg-dark text-white">
+<section class="py-5 bg-dark text-white" id="precios">
     <div class="container">
         <h2 class="text-center mb-5">Precios</h2>
         <div class="row justify-content-center">
@@ -106,7 +121,7 @@
     </div>
 </section>
 
-<section class="py-5">
+<section class="py-5" id="contacto">
     <div class="container">
         <h2 class="text-center mb-5">Contacto</h2>
         <div class="row justify-content-center">
@@ -133,10 +148,15 @@
 
 <footer class="bg-dark text-white py-4">
     <div class="container text-center">
-        <p class="mb-0">© 2026 BarberKing - Todos los derechos reservados</p>
+        <p class="mb-3">© 2025 BarberKing - Todos los derechos reservados</p>
+        <div class="d-flex justify-content-center gap-4">
+            <a href="#" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white fs-4"><i class="bi bi-whatsapp"></i></a>
+            <a href="#" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white fs-4"><i class="bi bi-tiktok"></i></a>
+        </div>
     </div>
 </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
